@@ -2,7 +2,7 @@
   "name": "sales-tax-cad",
   "version": "1.0.0",
   "description": "Federal and provincial sales tax helpers",
-  "main": "index.js",
+  "main": "lib/index.js",
   "author": "MikeIbberson",
   "license": "MIT",
   "devDependencies": {
