@@ -1,0 +1,87 @@
+[
+  {
+    "province": "AB",
+    "tax": "GST",
+    "value": "0.05"
+  },
+  {
+    "province": "BC",
+    "tax": "GST",
+    "value": "0.05"
+  },
+  {
+    "province": "BC",
+    "tax": "PST",
+    "value": "0.07"
+  },
+  {
+    "province": "MB",
+    "tax": "GST",
+    "value": "0.05"
+  },
+  {
+    "province": "MB",
+    "tax": "PST",
+    "value": "0.07"
+  },
+  {
+    "province": "NB",
+    "tax": "HST",
+    "value": "0.15"
+  },
+  {
+    "province": "NL",
+    "tax": "HST",
+    "value": "0.15"
+  },
+  {
+    "province": "NS",
+    "tax": "HST",
+    "value": "0.15"
+  },
+  {
+    "province": "NT",
+    "tax": "GST",
+    "value": "0.05"
+  },
+  {
+    "province": "NU",
+    "tax": "GST",
+    "value": "0.05"
+  },
+  {
+    "province": "ON",
+    "tax": "HST",
+    "value": "0.13"
+  },
+  {
+    "province": "PE",
+    "tax": "HST",
+    "value": "0.15"
+  },
+  {
+    "province": "QC",
+    "tax": "GST",
+    "value": "0.05"
+  },
+  {
+    "province": "QC",
+    "tax": "QST",
+    "value": "0.09975"
+  },
+  {
+    "province": "SK",
+    "tax": "GST",
+    "value": "0.05"
+  },
+  {
+    "province": "SK",
+    "tax": "PST",
+    "value": "0.06"
+  },
+  {
+    "province": "YK",
+    "tax": "GST",
+    "value": "0.05"
+  }
+]
