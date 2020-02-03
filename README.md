@@ -1,7 +1,7 @@
 <h1>🧾 Canadian sales tax calculator</h1>
 
 <p>
-  <img src="https://github.com/MikeIbberson/sales-tax-cad/workflows/nodejs.yml/badge.svg" alt="Status" />
+  <img src="https://github.com/MikeIbberson/sales-tax-cad/workflows/Node%20CI/badge.svg" alt="Status" />
 <a href='https://coveralls.io/github/MikeIbberson/sales-tax-cad?branch=master'><img src='https://coveralls.io/repos/github/MikeIbberson/sales-tax-cad/badge.svg?branch=master' alt='Coverage Status' /></a>
 </p>
 
