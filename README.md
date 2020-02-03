@@ -1,11 +1,41 @@
 <h1>🧾 Canadian sales tax calculator</h1>
 
 <h2>Usage</h2>
-<p></p>
+<p>This package exports a single class. It's rather small and only does one thing: calculate CAD taxes. For those who just care about the total, you can call <code>sum</code>, as shown below, or you can get a tax trace using <code>get</code>.</p>
+
+<p>Note that the constructor takes three arguments:</p>
+<ol>
+  <li>The two-letter province code;</li>
+  <li>The taxable number value;</li>
+  <li>The number of decimal points to include in output.</li>
+</ol>
 
 ```javascript
-  // Coming soon
+  const SalesTax = require('sales-tax-cad');
+  
+  const tax = new SalesTax('ON', 21.41, 2);
+  tax.get(); // returns an array of all chargeable taxes
+  tax.sum(); // returns the total payable tax
 ```
+
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>get</code></td>
+      <td>Returns an array of applicable taxes</td>
+    </tr>
+    <tr>
+      <td><code>get</code></td>
+      <td>Returns the total payable tax (reduces <code>get</code> results)</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2>Rate table</h2>
 <table>
