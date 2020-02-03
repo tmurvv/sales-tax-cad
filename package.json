@@ -19,5 +19,9 @@
   },
   "dependencies": {
     "bignumber.js": "^9.0.0"
+  },
+  "scripts": {
+    "test": "jest --collectCoverage",
+    "lint": "eslint lib/* --fix"
   }
 }

@@ -1,5 +1,10 @@
 <h1>🧾 Canadian sales tax calculator</h1>
 
+<p>
+  <img src="https://github.com/MikeIbberson/sales-tax-cad/workflows/nodejs.yml/badge.svg" alt="Status" />
+<a href='https://coveralls.io/github/MikeIbberson/sales-tax-cad?branch=master'><img src='https://coveralls.io/repos/github/MikeIbberson/sales-tax-cad/badge.svg?branch=master' alt='Coverage Status' /></a>
+</p>
+
 <p>This package exports a single class. It's rather small and only does one thing: calculate CAD taxes. For those who just care about the total, you can call <code>sum</code>, as shown below, or you can get a tax trace using <code>get</code>.</p>
 
 <p>Note that the constructor takes three arguments:</p>
