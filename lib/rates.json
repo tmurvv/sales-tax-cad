@@ -83,5 +83,10 @@
     "province": "YK",
     "tax": "GST",
     "value": "0.05"
+  },
+  {
+    "province": "YT",
+    "tax": "GST",
+    "value": "0.05"
   }
 ]
